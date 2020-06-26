@@ -19,10 +19,6 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
-    
-    
-
-
 }
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
